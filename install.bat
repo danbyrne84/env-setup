@@ -12,9 +12,9 @@ echo 3 * Installing extras: cmder, git, node
 
 @cinst -y cmder git nodejs --limitoutput
 
-echo 4 * Install Angular CLI
+echo 4 * Install Angular CLI (may take a while)
 
-# call npm install -g "@angular/cli" --silent
+call npm install -g "@angular/cli" --silent
 
 echo 5 * Checking out demo project from source control
 
